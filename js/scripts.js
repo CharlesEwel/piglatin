@@ -8,7 +8,7 @@ $(document).ready(function() {
 });
 
 var pigLatin = function(phrase){
-  var vowel = /([^aeiou]*)(\w*)/i
+  var vowel = /([^aeiou][^aeiouy]*)(\w*)/i
   return phrase.replace(vowel, "$2$1ay");
 };
 
