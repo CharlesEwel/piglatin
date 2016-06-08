@@ -12,5 +12,9 @@ var pigLatin = function(phrase){
   if(letters[0]==="a" || letters[0]==="e" || letters[0]==="i" || letters[0]==="o" || letters[0]==="u"){
     letters.push("ay");
     return letters.join("");
+  } else {
+    letters.push(letters[0]+"ay");
+    var letters2=letters.slice(1,letters.length)
+    return letters2.join("")
   }
 };
