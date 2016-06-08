@@ -15,8 +15,9 @@ Specs:
 -Program should return first letter of word and "ay" to words beginning with consonants.
   -Sample input: "car"
   -Sample output: "ar-cay"
-
-
+-Program should return first two letter ofs word and "ay" to words beginning with 2 consonants.
+  -Sample input: "chard"
+  -Sample output: "ard-chay"
 
 ## Setup/Installation Requirements
 
