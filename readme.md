@@ -27,7 +27,9 @@ Specs:
 -Program will treat u as a consonant when it follows q
   -Sample input: "quiet"
   -Sample output: "iet-quay"
-
+-Program will ignore capitalization on the first letter
+  -Sample input: "Animal"
+  -Sample output: "Animalay"
 ## Setup/Installation Requirements
 
 * _Clone repository from GitHub_

@@ -9,10 +9,10 @@ $(document).ready(function() {
 
 var pigLatin = function(phrase){
   var letters=phrase.split("")
-  if(letters[0]==="a" || letters[0]==="e" || letters[0]==="i" || letters[0]==="o" || letters[0]==="u"){
+  if( letters[0].toUpperCase()==="A" || letters[0].toUpperCase()==="E" || letters[0].toUpperCase()==="I" || letters[0].toUpperCase()==="O" || letters[0].toUpperCase()==="U"){
     letters.push("ay");
     return letters.join("");
-  } else if (letters[1]==="a" || letters[1]==="e" || letters[1]==="i" || letters[1]==="o" || (letters[1]==="u" && letters[0]!="q") || letters[1]==="y") {
+  } else if (letters[1]==="a" || letters[1]==="e" || letters[1]==="i" || letters[1]==="o" || (letters[1]==="u" && letters[0].toUpperCase()!="Q") || letters[1]==="y") {
     letters.push(letters[0]+"ay");
     var letters2=letters.slice(1,letters.length)
     return letters2.join("")
