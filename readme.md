@@ -30,6 +30,9 @@ Specs:
 -Program will ignore capitalization on the first letter
   -Sample input: "Animal"
   -Sample output: "Animalay"
+-Program should translate phrases into Pig Latin, as demonstrated above
+  -Sample input: "the quick brown fox"
+  -Sample output: "ethay ickquay ownbray oxfay"
 ## Setup/Installation Requirements
 
 * _Clone repository from GitHub_
