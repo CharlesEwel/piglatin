@@ -16,7 +16,7 @@ var pigLatin = function(phrase){
       var punctuation=letters[letters.length-1];
       letters.pop();
     };
-  if( letters[0].toUpperCase()==="A" || letters[0].toUpperCase()==="E" || letters[0].toUpperCase()==="I" || letters[0].toUpperCase()==="O" || letters[0].toUpperCase()==="U"){
+    if( letters[0].toUpperCase()==="A" || letters[0].toUpperCase()==="E" || letters[0].toUpperCase()==="I" || letters[0].toUpperCase()==="O" || letters[0].toUpperCase()==="U"){
       letters.push("ay" + punctuation);
       return letters.join("");
     } else if (letters[1]==="a" || letters[1]==="e" || letters[1]==="i" || letters[1]==="o" || (letters[1]==="u" && letters[0].toUpperCase()!="Q") || letters[1]==="y") {
