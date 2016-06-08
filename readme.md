@@ -33,6 +33,9 @@ Specs:
 -Program should translate phrases into Pig Latin, as demonstrated above
   -Sample input: "the quick brown fox"
   -Sample output: "ethay ickquay ownbray oxfay"
+-Program should have normal rules of  punctuation (commas, periods, etc.)
+  -Sample input: "Hello, how are you?"
+  -Sample output: "elloHay, owhay, areay, ouyay?"
 ## Setup/Installation Requirements
 
 * _Clone repository from GitHub_
