@@ -14,10 +14,19 @@ Specs:
   -Sample output: "animalay"
 -Program should return first letter of word and "ay" to words beginning with consonants.
   -Sample input: "car"
-  -Sample output: "ar-cay"
--Program should return first two letter ofs word and "ay" to words beginning with 2 consonants.
+  -Sample output: "arcay"
+-Program should return first two letters of word and "ay" to words beginning with 2 consonants.
   -Sample input: "chard"
-  -Sample output: "ard-chay"
+  -Sample output: "ardchay"
+-Program should return first three letters of word and "ay" to words beginning with 3 consonants.
+  -Sample input: "strike"
+  -Sample output: "ikestray"
+-Program should treat y as a vowel if it is not first letter of word
+  -Sample input: "byline"
+  -Sample output: "ylinebay"
+-Program will treat u as a consonant when it follows q
+  -Sample input: "quiet"
+  -Sample output: "iet-quay"
 
 ## Setup/Installation Requirements
 
